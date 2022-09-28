@@ -1,0 +1,22 @@
+.text-box {
+  font-size: 1rem;
+
+  padding: 0.3em;
+  width: min(75%, 50vw);
+
+  border: 0;
+  outline: 1px solid rgba(60, 237, 60, 0.7);
+  border-radius: 10px;
+}
+
+.text-box:focus {
+  outline: 3px solid rgba(60, 237, 60, 0.7);
+}
+
+.input-error {
+  outline: 1px solid red;
+}
+
+.input-error:focus {
+  outline: 2px solid red;
+}
